@@ -1,0 +1,22 @@
+.title-ayuda{
+    color:#337ABC;
+    text-align: center;
+    margin-top:45px;
+    user-select: none;
+}
+
+.card-header{
+    background-color: #337ABC !important;
+    color:white;
+    border:1px solid #5D8FBE !important;
+    user-select: none;
+    cursor:pointer;
+}
+
+.card-header:hover{
+    background-color: #2F6FAA !important;
+}
+
+.card-body{
+    user-select: none;
+}

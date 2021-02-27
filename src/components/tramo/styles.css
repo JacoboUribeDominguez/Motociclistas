@@ -1,0 +1,54 @@
+  
+/************************************BACKGROUND TRAMOS************************************/
+.bcg-tramos{
+    background-color: #FAFAFA;
+    overflow:auto;
+    
+}
+.bcg-tramos::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+.bcg-tramos::-webkit-scrollbar-thumb {
+    background-color: #337ABC;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 7px solid white;  /* creates padding around scroll thumb */
+}
+
+.title-main{
+    color: #337ABC;
+    text-align: center;
+    user-select: none;
+}
+
+/************************************Tramos************************************/
+
+.tramo-inactive{
+    border-radius:3px;
+    background-color:#408ED6;
+    cursor : pointer;
+    height:100%;
+}
+
+.tramo-active{
+    border-radius:3px;
+    background-color:#39C626;
+    cursor : pointer;
+    height:100%;
+}
+
+.tramo-disable{
+    border-radius:3px;
+    background-color:#C62626;
+}
+
+.tramo-text{
+    color: #FAFAFA;
+    text-align: center;
+    cursor : pointer;
+    user-select: none;
+}
+
+.tramos-container{
+    height:100%;
+}

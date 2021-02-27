@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.navbar-bg{
+    background-color: #337ABC;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.container-header{
+    width:100vw;
+    background-color: #337ABC;
+}
+
+.row-ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin : 0;
+    height: 100%;
+    width: 100%;
+}
+
+.col-li{
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.col-li:hover{
+    color: white;
+    text-decoration:none;
+    background-color: #2F6FAA;
+}
+
+.active-link:hover{
+    color: white;
+    text-decoration:none;
+    background-color: #2F6FAA;
+}
+
+/*dropdown*/
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:50px;
+    left:55px;
+    background-color: #337ABC;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform:translate(-100%, 0px);
+    border: 1px solid #5D8FBE;
+    border-radius:5px
+}
+  
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #2F6FAA;
+    text-decoration: none;
+    color:white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}

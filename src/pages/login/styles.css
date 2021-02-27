@@ -1,0 +1,20 @@
+.container-bg-blue{
+    background-color: #337ABC;
+    border-radius:7px;
+}
+
+.ingresaUsuario-title{
+    color: white;
+}
+
+.button-login{
+    color:white !important;
+    background-color: #4396E1 !important;
+    border: 1px solid #4396E1;
+}
+
+.button-login:hover{
+    color:white !important;
+    background-color: #2E82CD !important;
+    border: 1px solid #2E82CD;
+}

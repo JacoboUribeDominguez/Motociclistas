@@ -1,0 +1,33 @@
+.title-misReservas{
+    color:#337ABC;
+    user-select: none;
+}
+
+.reservas-container{
+    display:flex;
+    background-color: #DAE8F5;
+    overflow:auto;
+    padding: 0px 25px;
+}
+
+.reservas-container::-webkit-scrollbar {
+    width: 50px;               /* width of the entire scrollbar */
+}
+  
+.reservas-container::-webkit-scrollbar-thumb {
+    background-color: #337ABC;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 6px solid #DAE8F5;
+}
+
+.reserva{
+    margin: 25px 15px;
+    background-color: #337ABC;
+    padding:60px 62px;
+    color:white;
+    user-select: none;
+}
+
+.reserva h5 {
+    text-align: center;
+}
